@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>AI french poem generator</h1>
     </header>
@@ -15,14 +16,17 @@
         <input type="text" placeholder="Enter the topic of the French-Poem"
         autofocus
         required
+        autocomplete="off"
+        class="instructions"
         />
-        <input type="submit"/>
-        <div>
+        <input type="submit" class="submit-button"/>
+        </form>
+        <div class="poem">
             La tombe dit a la rose
             <br>
             Des pleurs don`t l`aube t`arrose
         </div>
-    </form>
+    
     </main>
    <footer>
     This AI project was cooded by 
